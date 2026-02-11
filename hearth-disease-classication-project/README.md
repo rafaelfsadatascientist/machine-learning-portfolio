@@ -27,7 +27,7 @@ Random Forest was selected based on cross-validated recall performance and valid
 ## Additional Visualizations
 
 ### Precision-Recall Curve
-![Precision-Recall Curve](images/precision_recall_curve.png)
+![Precision-Recall Curve](figures/precision_recall_curve.png)
 
 ## How to Run
 ```bash
