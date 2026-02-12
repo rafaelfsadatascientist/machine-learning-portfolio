@@ -1,5 +1,6 @@
 # ============================================================
 # Heart Disease Classification Project
+# Author: Rafael Severiano
 # ============================================================
 
 # In this project, we build a machine learning model 
@@ -23,7 +24,7 @@
 
 
 # ============================================================
-#Imports
+# Imports
 # ============================================================
 
 import numpy as np
@@ -100,6 +101,7 @@ plt.show()
 # ============================================================
 # Data Separation
 # ============================================================
+
 X = df.drop("num", axis=1)
 
 X_train, X_temp, y_train, y_temp = train_test_split(
@@ -120,6 +122,7 @@ X_val, X_test, y_val, y_test = train_test_split(
 # ============================================================
 # Preprocessing
 # ============================================================
+
 drop = ["id", "dataset"]
 num = ["chol", "age", "trestbps", "oldpeak", "thalch"]
 cat = ["cp", "slope", "restecg", "thal"]
@@ -216,7 +219,7 @@ gs_log_reg.fit(X_train, y_train)
 gs_neural.fit(X_train, y_train)
 
 # ============================================================
-#Metrics (CV and Validation Set) for Model Selection
+# Metrics (CV and Validation Set) for Model Selection
 # ============================================================
 
 #Recall Comparison
