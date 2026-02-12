@@ -7,7 +7,7 @@
 Build a conservative machine learning model to classify heart disease, prioritizing recall to minimize false negatives.
 
 ## Problem Framing
--Dataset: UCI Hearth Disease (Kaggle source)
+Dataset: UCI Hearth Disease (Kaggle source)
 https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data/data
 - Binary classification (disease vs no disease)
 - Focus on high recall
