@@ -30,7 +30,7 @@ The workflow includes:
 ### Test Performance
 ![Metrics](figures/test_set_performance.png)
 
-### Actual vs Predicted
+### Actual vs Predicted Values
 ![Actual vs Predicted](figures/actual_vs_predicted_values.png)
 
 ### Evaluation by Price Range
