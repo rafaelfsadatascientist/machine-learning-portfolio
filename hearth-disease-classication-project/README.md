@@ -1,5 +1,8 @@
 # Heart Disease Classification
 
+## Author
+**Rafael Severiano**
+
 ## Objective
 Build a conservative machine learning model to classify heart disease, prioritizing recall to minimize false negatives.
 
