@@ -1,5 +1,8 @@
 # House Price Prediction – Regression + EDA
 
+## Author
+**Rafael Severiano**
+
 ## Overview
 
 This project predicts the median house value of California districts using socioeconomic and geographic data from the 1990 Census.
