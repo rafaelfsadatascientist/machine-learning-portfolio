@@ -33,20 +33,7 @@ This is an **unsupervised learning** problem where we try to discover natural gr
 
 ## Methodology
 
-### 1. Data Cleaning
-- Remove duplicates
-- Handle missing values
-- Encode cyclical features (`key` transformed using sine/cosine)
-
-### 2. Feature Selection
-Keep only intrinsic audio features and remove metadata.
-
-### 3. Preprocessing
-- **Categorical features:** One-Hot Encoding
-- **Numerical features:** Standard Scaling
-- **Dimensionality reduction:** PCA (5 components)
-
-### 4. Clustering
+### Clustering
 - KMeans clustering
 - Evaluate K using **inertia**
 - Final clustering with **k = 20**
