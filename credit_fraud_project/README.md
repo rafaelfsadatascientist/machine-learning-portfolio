@@ -9,6 +9,7 @@ Build a cost-sensitive machine learning model to detect fraudulent transactions 
 ## Problem Framing
 Dataset: Credit Card Fraud Detection (Kaggle source)  
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 Download the dataset and place creditcard.csv inside the data/ folder.
 
 Fraudulent transactions are extremely rare, creating a highly imbalanced classification problem.
