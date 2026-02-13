@@ -41,6 +41,5 @@ The workflow includes:
 
 ```bash
 pip install -r requirements.txt
-python house_prediction.py
 ```
 
